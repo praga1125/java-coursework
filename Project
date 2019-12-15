@@ -1,0 +1,35 @@
+https://beginnersbook.com/2013/05/java-inheritance-types/
+
+class BookStore -> title, author
+
+addBook(){
+    Books obj;
+obj.add()
+}
+listBooks()
+main()  
+1. Add Book
+2. Books List 
+sva
+int
+    Switch(i)
+      
+Books
+add(){
+System.
+}
+list()
+-> title
+-> author
+
+
+ function that accepts a string as a parameter and converts the first letter of each word of the string in upper case
+
+hello this is from netbeans
+Hello This Is From Netbeans
+
+function that accepts a string as a parameter and find the longest word within the string
+hello this is from netbeans => netbeans
+
+function that accepts a string as a parameter and counts the number of vowels within the string
+neatbeans => 4

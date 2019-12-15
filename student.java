@@ -1,23 +1,33 @@
-class CT{
-string name="ooo";
-int age=20 ,percent=77 ;
-   CT(string name,int age,int precent){
-   this.name=name;
-   this.age=age;
-   this percent=percent;
-   }
-   void display(){
-   System.out.println("name is :"+name+" age is :"+age);
-  }
+package First;
+import java.io.*;
+import java.util.*;
+public class student {
+    percentage obj= new percentage();
+    int n[]={10,20,30,40,50};
+
+    obj.percentage("praga",n[]);
+    void percentage1(){
+        
+    }
 }
-class Student()
-{
-public static void main(String args[])
-CT stu1=new CT("praga",17,79);
-CT stu2=new CT("saba",18,80);
-CT stu3=new CT("prathap",18,60);
-stu1.display();
-stu2.display();
-stu3.display();
+class percentage{
+    char ans;
+    char s;
+    student obj2=new student();
+    String name;
+    int input; 
+    int mark[]=new int[input];
+    Scanner sc= new Scanner(System.in);
+    do{
+    void percentage(String n,int m[10]){
+        name=n;
+        mark[input]=m[10];
+    System.out.print("student name :  "+name);
+    for(int i=0;i<mark[input];i++)
+    System.out.println("mark :"+mark[i]);
+    obj2.percentage1();
+    System.out.println("do u want continue");
+    ans =sc.nextChar();
+    }while(ans == s)
 }
 }
