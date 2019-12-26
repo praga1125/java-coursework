@@ -1,0 +1,16 @@
+1. String is given. Find it's occurance of each letter.
+Example: 
+I/p: abcdabc
+O/p: a -> 2 b ->2 c ->2 d->1
+
+2. Factorial using recursion
+
+3.String is given. Find vowels and consonants 
+Ex: "aptitude"
+a,i,u,e -> 4 Vowels
+p,t,t,d -> 4 consonants
+
+GIVEN TWO ARRAY:
+1. CREATE ARRAY SIZE LEN
+ LEN = ARRAY1.LE + ARRAY2.LE;
+ 

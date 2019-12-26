@@ -1,0 +1,50 @@
+1. Write a program to print all natural numbers between 1 to n using recursion.
+n = 10;
+printNaturalNumber(10);1,2,3...10
+
+2. Write a program to print all even or odd numbers in given range using recursion.
+printOdd(10)
+printEven(10)
+3. Write a program to find sum of all even or odd numbers in given range using recursion.
+printOddSum(10)
+1+3+5+7+9 = ?
+
+4.Write a program to find reverse of any number using recursion.
+243 => 342
+
+int result = 1;
+int fact(int num){
+if(num >1){
+result *= num;
+fact(--num);
+}
+return result;
+
+
+
+
+const permutationsOfString = (str) => {
+  var permutations = []
+  str1 = str.split('');
+
+  for(var i=0;i<str.length;i++){
+    for(var j=0;j<str.length;j++){
+      let permutation = swap(str1, i, j);
+      permutations.push(permutation);
+    }
+  }
+  return permutations;
+}
+
+const swap = (str, i, j) => {
+  let letter1 = str[i];
+  let letter2 = str[j];
+  str[j] = letter1;
+  str[i] = letter2;
+  return str;
+}
+
+
+const permutation = permutationsOfString('ABC');
+// console.log(permutation);
+

@@ -1,0 +1,21 @@
+Array List:
+	add() //add element to the list => add('Hello') => add(index, 'Element')
+	size() //size of array => int
+	contains() //check whether the element is present inthe list => true/false
+	get(index)
+	
+Enumeration:
+	nextElement()
+	hasMoreElements()
+Vector:
+	addElement
+	contains
+	remove 
+	https://www.tutorialspoint.com/java/java_enumeration_interface.htm
+Stack:
+	push
+	pop
+	peek
+	empty
+	search
+	
